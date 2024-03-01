@@ -850,7 +850,9 @@ def upload_and_process():
     # Just incase it fucks up lets error message to the template
     return render_template('machine.html', error_message=error_message, plot_url=plot_url)
 
-
+@app.route('/WeeklyStockAllocation')
+def stockToFlow():
+    return render_template('xxxxx.html')
 
 
 @app.route('/MLRules')
