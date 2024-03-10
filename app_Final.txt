@@ -67,7 +67,7 @@ app.secret_key = secret_key
 
 
 
-
+#stach my files to view in this listeee
 processed_files = []
 
 
@@ -863,7 +863,9 @@ def CSV_To_Machine_Learn():
 @app.route('/service')
 def service():
     return render_template('service.html')
-
+#@app.route('/ML_selector)
+#def selectedML():
+#     
 
 @app.route('/How-to-developments')
 def How_To_Rename_Listing():
